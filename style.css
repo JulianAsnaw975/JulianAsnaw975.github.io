@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+ }
+
+ input {
+    grid-column: 1 / span 4;
+ }
+
+.red {
+ background-color: red;
+ color: white;
+ grid-column: 1 / span 2;
+}
+
+.blue {
+ background-color: blue;
+ color: white; 
+}
+
+.orange {
+ background-color: orange;
+ color: black; 
+}
+
+.green {
+ background-color: green;
+ color: white; 
+}
+
+.black {
+ background-color: black;
+ color: white; 
+}
+
+button{
+ width: 100%;
+}
